@@ -1,0 +1,132 @@
+PS D:\IFCE\2025.2_SO\gerenciamento_memoria\simulador_nivel_unico> ./simulador_nivel_unico.exe cenario2_nivel_unico.txt
+Sistema (Nivel Unico) inicializado. 16 quadros fisicos disponiveis.
+
+Traduzindo endereco virtual: 100
+1. Divisao do Endereco:
+   VPN: 0, Offset: 100
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 0!
+    Carregando pagina virtual 0 para o quadro fisico 0.
+    Endereco Fisico Resultante: 100 (Quadro: 0, Offset: 100)
+
+Traduzindo endereco virtual: 1000
+1. Divisao do Endereco:
+   VPN: 3, Offset: 232
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 3!
+    Carregando pagina virtual 3 para o quadro fisico 1.
+    Endereco Fisico Resultante: 488 (Quadro: 1, Offset: 232)
+
+Traduzindo endereco virtual: 2000
+1. Divisao do Endereco:
+   VPN: 7, Offset: 208
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 7!
+    Carregando pagina virtual 7 para o quadro fisico 2.
+    Endereco Fisico Resultante: 720 (Quadro: 2, Offset: 208)
+
+Traduzindo endereco virtual: 3000
+1. Divisao do Endereco:
+   VPN: 11, Offset: 184
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 11!
+    Carregando pagina virtual 11 para o quadro fisico 3.
+    Endereco Fisico Resultante: 952 (Quadro: 3, Offset: 184)
+
+Traduzindo endereco virtual: 4000
+1. Divisao do Endereco:
+   VPN: 15, Offset: 160
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 15!
+    Carregando pagina virtual 15 para o quadro fisico 4.
+    Endereco Fisico Resultante: 1184 (Quadro: 4, Offset: 160)
+
+Traduzindo endereco virtual: 5000
+1. Divisao do Endereco:
+   VPN: 19, Offset: 136
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 19!
+    Carregando pagina virtual 19 para o quadro fisico 5.
+    Endereco Fisico Resultante: 1416 (Quadro: 5, Offset: 136)
+
+Traduzindo endereco virtual: 6000
+1. Divisao do Endereco:
+   VPN: 23, Offset: 112
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 23!
+    Carregando pagina virtual 23 para o quadro fisico 6.
+    Endereco Fisico Resultante: 1648 (Quadro: 6, Offset: 112)
+
+Traduzindo endereco virtual: 7000
+1. Divisao do Endereco:
+   VPN: 27, Offset: 88
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 27!
+    Carregando pagina virtual 27 para o quadro fisico 7.
+    Endereco Fisico Resultante: 1880 (Quadro: 7, Offset: 88)
+
+Traduzindo endereco virtual: 8000
+1. Divisao do Endereco:
+   VPN: 31, Offset: 64
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 31!
+    Carregando pagina virtual 31 para o quadro fisico 8.
+    Endereco Fisico Resultante: 2112 (Quadro: 8, Offset: 64)
+
+Traduzindo endereco virtual: 9000
+1. Divisao do Endereco:
+   VPN: 35, Offset: 40
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 35!
+    Carregando pagina virtual 35 para o quadro fisico 9.
+    Endereco Fisico Resultante: 2344 (Quadro: 9, Offset: 40)
+
+Traduzindo endereco virtual: 10000
+1. Divisao do Endereco:
+   VPN: 39, Offset: 16
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 39!
+    Carregando pagina virtual 39 para o quadro fisico 10.
+    Endereco Fisico Resultante: 2576 (Quadro: 10, Offset: 16)
+
+Traduzindo endereco virtual: 11000
+1. Divisao do Endereco:
+   VPN: 42, Offset: 248
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 42!
+    Carregando pagina virtual 42 para o quadro fisico 11.
+    Endereco Fisico Resultante: 3064 (Quadro: 11, Offset: 248)
+
+Traduzindo endereco virtual: 12000
+1. Divisao do Endereco:
+   VPN: 46, Offset: 224
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 46!
+    Carregando pagina virtual 46 para o quadro fisico 12.
+    Endereco Fisico Resultante: 3296 (Quadro: 12, Offset: 224)
+
+Traduzindo endereco virtual: 13000
+1. Divisao do Endereco:
+   VPN: 50, Offset: 200
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 50!
+    Carregando pagina virtual 50 para o quadro fisico 13.
+    Endereco Fisico Resultante: 3528 (Quadro: 13, Offset: 200)
+
+Traduzindo endereco virtual: 14000
+1. Divisao do Endereco:
+   VPN: 54, Offset: 176
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 54!
+    Carregando pagina virtual 54 para o quadro fisico 14.
+    Endereco Fisico Resultante: 3760 (Quadro: 14, Offset: 176)
+
+
+========================================================
+          RELATORIO FINAL (SIMULACAO NIVEL UNICO)
+========================================================
+Total de Acessos a Memoria: 15
+Metricas do TLB: Hits=0, Misses=15, Taxa de Acerto=0.00%
+Metricas de Paginacao: Faltas de Pagina=15
+Metricas de Desempenho: EAT=50201.00 unidades
+========================================================

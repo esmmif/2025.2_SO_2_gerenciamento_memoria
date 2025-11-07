@@ -1,0 +1,133 @@
+PS D:\IFCE\2025.2_SO\gerenciamento_memoria\simulador_multinivel> ./simulador_multinivel.exe cenario2_multinivel.txt
+Sistema (Dois Niveis) inicializado. 16 quadros fisicos disponiveis.
+
+Traduzindo endereco virtual (32 bits): 4000
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 4000
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 0!
+    Criando tabela de paginas de segundo nivel para o indice de diretorio 0.      
+    Carregando pagina virtual 0 para o quadro fisico 0.
+    Endereco Fisico Resultante: 4000 (Quadro: 0, Offset: 4000)
+
+Traduzindo endereco virtual (32 bits): 8200
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 2, Offset: 8
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 2!
+    Carregando pagina virtual 2 para o quadro fisico 1.
+    Endereco Fisico Resultante: 4104 (Quadro: 1, Offset: 8)
+
+Traduzindo endereco virtual (32 bits): 12300
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 3, Offset: 12
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 3!
+    Carregando pagina virtual 3 para o quadro fisico 2.
+    Endereco Fisico Resultante: 8204 (Quadro: 2, Offset: 12)
+
+Traduzindo endereco virtual (32 bits): 16400
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 4, Offset: 16
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 4!
+    Carregando pagina virtual 4 para o quadro fisico 3.
+    Endereco Fisico Resultante: 12304 (Quadro: 3, Offset: 16)
+
+Traduzindo endereco virtual (32 bits): 20500
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 5, Offset: 20
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 5!
+    Carregando pagina virtual 5 para o quadro fisico 4.
+    Endereco Fisico Resultante: 16404 (Quadro: 4, Offset: 20)
+
+Traduzindo endereco virtual (32 bits): 24600
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 6, Offset: 24
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 6!
+    Carregando pagina virtual 6 para o quadro fisico 5.
+    Endereco Fisico Resultante: 20504 (Quadro: 5, Offset: 24)
+
+Traduzindo endereco virtual (32 bits): 28700
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 7, Offset: 28
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 7!
+    Carregando pagina virtual 7 para o quadro fisico 6.
+    Endereco Fisico Resultante: 24604 (Quadro: 6, Offset: 28)
+
+Traduzindo endereco virtual (32 bits): 32800
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 8, Offset: 32
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 8!
+    Carregando pagina virtual 8 para o quadro fisico 7.
+    Endereco Fisico Resultante: 28704 (Quadro: 7, Offset: 32)
+
+Traduzindo endereco virtual (32 bits): 36900
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 9, Offset: 36
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 9!
+    Carregando pagina virtual 9 para o quadro fisico 8.
+    Endereco Fisico Resultante: 32804 (Quadro: 8, Offset: 36)
+
+Traduzindo endereco virtual (32 bits): 41000
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 10, Offset: 40
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 10!
+    Carregando pagina virtual 10 para o quadro fisico 9.
+    Endereco Fisico Resultante: 36904 (Quadro: 9, Offset: 40)
+
+Traduzindo endereco virtual (32 bits): 45100
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 11, Offset: 44
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 11!
+    Carregando pagina virtual 11 para o quadro fisico 10.
+    Endereco Fisico Resultante: 41004 (Quadro: 10, Offset: 44)
+
+Traduzindo endereco virtual (32 bits): 49200
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 12, Offset: 48
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 12!
+    Carregando pagina virtual 12 para o quadro fisico 11.
+    Endereco Fisico Resultante: 45104 (Quadro: 11, Offset: 48)
+
+Traduzindo endereco virtual (32 bits): 53300
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 13, Offset: 52
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 13!
+    Carregando pagina virtual 13 para o quadro fisico 12.
+    Endereco Fisico Resultante: 49204 (Quadro: 12, Offset: 52)
+
+Traduzindo endereco virtual (32 bits): 57400
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 14, Offset: 56
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 14!
+    Carregando pagina virtual 14 para o quadro fisico 13.
+    Endereco Fisico Resultante: 53304 (Quadro: 13, Offset: 56)
+
+Traduzindo endereco virtual (32 bits): 61500
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 15, Offset: 60
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 15!
+    Carregando pagina virtual 15 para o quadro fisico 14.
+    Endereco Fisico Resultante: 57404 (Quadro: 14, Offset: 60)
+
+
+========================================================
+         RELATORIO FINAL (SIMULACAO DOIS NIVEIS)
+========================================================
+Total de Acessos a Memoria: 15
+Metricas do TLB: Hits=0, Misses=15, Taxa de Acerto=0.00%
+Metricas de Paginacao: Faltas de Pagina=15
+Metricas de Desempenho: EAT=50294.33 unidades
+========================================================

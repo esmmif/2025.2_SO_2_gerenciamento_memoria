@@ -1,0 +1,106 @@
+PS D:\IFCE\2025.2_SO\gerenciamento_memoria\simulador_nivel_unico> ./simulador_nivel_unico.exe cenario1_nivel_unico.txt
+Sistema (Nivel Unico) inicializado. 16 quadros fisicos disponiveis.
+
+Traduzindo endereco virtual: 100
+1. Divisao do Endereco:
+   VPN: 0, Offset: 100
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 0!
+    Carregando pagina virtual 0 para o quadro fisico 0.
+    Endereco Fisico Resultante: 100 (Quadro: 0, Offset: 100)
+
+Traduzindo endereco virtual: 270
+1. Divisao do Endereco:
+   VPN: 1, Offset: 14
+--> Falha no TLB (TLB Miss). Verificando Tabela de Paginas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 1!
+    Carregando pagina virtual 1 para o quadro fisico 1.
+    Endereco Fisico Resultante: 270 (Quadro: 1, Offset: 14)
+
+Traduzindo endereco virtual: 110
+1. Divisao do Endereco:
+   VPN: 0, Offset: 110
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 110 (Quadro: 0, Offset: 110)
+
+Traduzindo endereco virtual: 280
+1. Divisao do Endereco:
+   VPN: 1, Offset: 24
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 280 (Quadro: 1, Offset: 24)
+
+Traduzindo endereco virtual: 120
+1. Divisao do Endereco:
+   VPN: 0, Offset: 120
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 120 (Quadro: 0, Offset: 120)
+
+Traduzindo endereco virtual: 290
+1. Divisao do Endereco:
+   VPN: 1, Offset: 34
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 290 (Quadro: 1, Offset: 34)
+
+Traduzindo endereco virtual: 130
+1. Divisao do Endereco:
+   VPN: 0, Offset: 130
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 130 (Quadro: 0, Offset: 130)
+
+Traduzindo endereco virtual: 259
+1. Divisao do Endereco:
+   VPN: 1, Offset: 3
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 259 (Quadro: 1, Offset: 3)
+
+Traduzindo endereco virtual: 140
+1. Divisao do Endereco:
+   VPN: 0, Offset: 140
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 140 (Quadro: 0, Offset: 140)
+
+Traduzindo endereco virtual: 260
+1. Divisao do Endereco:
+   VPN: 1, Offset: 4
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 260 (Quadro: 1, Offset: 4)
+
+Traduzindo endereco virtual: 150
+1. Divisao do Endereco:
+   VPN: 0, Offset: 150
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 150 (Quadro: 0, Offset: 150)
+
+Traduzindo endereco virtual: 275
+1. Divisao do Endereco:
+   VPN: 1, Offset: 19
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 275 (Quadro: 1, Offset: 19)
+
+Traduzindo endereco virtual: 160
+1. Divisao do Endereco:
+   VPN: 0, Offset: 160
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 160 (Quadro: 0, Offset: 160)
+
+Traduzindo endereco virtual: 285
+1. Divisao do Endereco:
+   VPN: 1, Offset: 29
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 285 (Quadro: 1, Offset: 29)
+
+Traduzindo endereco virtual: 170
+1. Divisao do Endereco:
+   VPN: 0, Offset: 170
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 170 (Quadro: 0, Offset: 170)
+
+
+========================================================
+          RELATORIO FINAL (SIMULACAO NIVEL UNICO)
+========================================================
+Total de Acessos a Memoria: 15
+Metricas do TLB: Hits=13, Misses=2, Taxa de Acerto=86.67%
+Metricas de Paginacao: Faltas de Pagina=2
+Metricas de Desempenho: EAT=6781.00 unidades
+========================================================

@@ -1,0 +1,105 @@
+PS D:\IFCE\2025.2_SO\gerenciamento_memoria\simulador_multinivel> ./simulador_multinivel.exe cenario1_multinivel.txt
+Sistema (Dois Niveis) inicializado. 16 quadros fisicos disponiveis.
+
+Traduzindo endereco virtual (32 bits): 100
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 100
+--> Falha no TLB (TLB Miss). Passeando pela hierarquia de tabelas...
+--> FALTA DE PAGINA (Page Fault) para a pagina virtual 0!
+    Criando tabela de paginas de segundo nivel para o indice de diretorio 0.
+    Carregando pagina virtual 0 para o quadro fisico 0.
+    Endereco Fisico Resultante: 100 (Quadro: 0, Offset: 100)
+
+Traduzindo endereco virtual (32 bits): 258
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 258
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 258 (Quadro: 0, Offset: 258)
+
+Traduzindo endereco virtual (32 bits): 3000
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 3000
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 3000 (Quadro: 0, Offset: 3000)
+
+Traduzindo endereco virtual (32 bits): 110
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 110
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 110 (Quadro: 0, Offset: 110)
+
+Traduzindo endereco virtual (32 bits): 270
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 270
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 270 (Quadro: 0, Offset: 270)
+
+Traduzindo endereco virtual (32 bits): 3010
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 3010
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 3010 (Quadro: 0, Offset: 3010)
+
+Traduzindo endereco virtual (32 bits): 120
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 120
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 120 (Quadro: 0, Offset: 120)
+
+Traduzindo endereco virtual (32 bits): 280
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 280
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 280 (Quadro: 0, Offset: 280)
+
+Traduzindo endereco virtual (32 bits): 3020
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 3020
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 3020 (Quadro: 0, Offset: 3020)
+
+Traduzindo endereco virtual (32 bits): 130
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 130
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 130 (Quadro: 0, Offset: 130)
+
+Traduzindo endereco virtual (32 bits): 290
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 290
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 290 (Quadro: 0, Offset: 290)
+
+Traduzindo endereco virtual (32 bits): 3030
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 3030
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 3030 (Quadro: 0, Offset: 3030)
+
+Traduzindo endereco virtual (32 bits): 140
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 140
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 140 (Quadro: 0, Offset: 140)
+
+Traduzindo endereco virtual (32 bits): 259
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 259
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 259 (Quadro: 0, Offset: 259)
+
+Traduzindo endereco virtual (32 bits): 3040
+1. Divisao do Endereco:
+   PD_Index: 0, PT_Index: 0, Offset: 3040
+--> Acerto no TLB (TLB Hit)!
+    Endereco Fisico Resultante: 3040 (Quadro: 0, Offset: 3040)
+
+
+========================================================
+         RELATORIO FINAL (SIMULACAO DOIS NIVEIS)
+========================================================
+Total de Acessos a Memoria: 15
+Metricas do TLB: Hits=14, Misses=1, Taxa de Acerto=93.33%
+Metricas de Paginacao: Faltas de Pagina=1
+Metricas de Desempenho: EAT=3441.00 unidades
+========================================================
